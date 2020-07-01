@@ -17,6 +17,7 @@ p{
 .name-highlight{
     color: rgb(255, 0, 140);
 }
+
 .half-width{
     width: 40%;
     float: left;
@@ -64,10 +65,33 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .reviews{
+      background-image: url(images/footer-bg.png);
 
+  }
+  
 
-
-
+  
 .single-experience{
 
     box-shadow: 10px 10px 40px grey;
@@ -79,4 +103,33 @@ section{
    border-left: 7px solid;
    border-image: linear-gradient(180deg, blue, cyan);
    border-image-slice: 1;
+}
+.h3{
+    text-align: center;
+}
+#client-bg{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.client-head
+{
+    text-align: center;
+}
+.client-say{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message  {
+    
+    padding:20px 60px 30px 60px;
+    background-color:rgba(255, 20, 98, 0.705);
+    border-radius: 10px;
+   
+}
+.message a{
+    text-decoration: none;
+    color: #fff;
 }
