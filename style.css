@@ -65,6 +65,12 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.work{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-position: 70px -180px;
+    background-repeat: no-repeat;
+}
 .column {
     float: left;
     width: 33.33%;
@@ -111,15 +117,18 @@ section{
     background-image: url("images/footer-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: -70px ;
 }
 .client-head
 {
     text-align: center;
+
 }
 .client-say{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .message  {
@@ -127,9 +136,59 @@ section{
     padding:20px 60px 30px 60px;
     background-color:rgba(255, 20, 98, 0.705);
     border-radius: 10px;
+    
+
    
 }
 .message a{
     text-decoration: none;
     color: #fff;
 }
+.contact-img {
+    margin-top: 8px;
+}
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+.column {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+   
+  
